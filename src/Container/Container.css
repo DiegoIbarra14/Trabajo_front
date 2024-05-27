@@ -1,0 +1,13 @@
+.sidebar {
+    order: 1;
+}
+
+.main-content {
+    order: 2;
+}
+
+.crud {
+    /* order: 3; */
+    margin-top: 50px; /* Ajusta el margen superior según necesites */
+    /* Añade los estilos específicos para el CRUD aquí */
+}

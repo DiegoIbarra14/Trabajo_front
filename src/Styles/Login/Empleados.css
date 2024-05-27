@@ -1,0 +1,78 @@
+.layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.content {
+    flex: 4;
+    padding: 20px;
+    margin-top: 50px; /* Agregamos un margen superior */
+}
+
+.crud {
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p-input-icon-left .p-inputtext {
+    padding-left: 2.5rem;
+}
+
+.p-datatable {
+    margin-top: 20px;
+}
+
+.p-dialog .field {
+    margin-bottom: 20px;
+}
+
+.p-dialog .p-error {
+    color: #ff6347;
+}
+
+.confirmation-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.confirmation-content i {
+    color: #ff6347;
+    margin-right: 10px;
+}
+
+/* Añadir estilos adicionales para la disposición horizontal de los campos en el diálogo */
+.p-dialog .formgrid .field {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-dialog .formgrid .field.col-12 {
+    width: 100%;
+}
+
+.p-dialog .formgrid .field.md\\:col-6 {
+    width: 50%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.p-dialog .formgrid .field.md\\:col-3 {
+    width: 25%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.fontLogin, .fontCredencial, .fontUsuario, .fontPassword {
+    font-family: 'Poppins', sans-serif;
+}
+
+.InputTextUsuarioLogin{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+.InputTextContraLogin{
+    font-family: 'Poppins', sans-serif;
+    width: 100% !important;
+}
+
+.fontButton{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+.fontGeneral{
+    font-family: 'Poppins', sans-serif;
+}
+
+.fontGeneralNavbar{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
